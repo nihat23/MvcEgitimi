@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Mvc ViewResult Çeşitleri";
+}
+
+<h2>Mvc ViewResult Çeşitleri</h2>
+
+ActionResult
+
+<hr />
+
+@Html.ActionLink("RedirectResult", "Index2")
+
+<hr />
+
+@Html.ActionLink("RedirectToRouteResult", "Index3")
+
+<hr />
+
+PartialViewResult
+<br />
+<h3>Kategorileri Partial ile Getir</h3>
+
+@Html.Partial("_KategorilerPartial")
+
+<hr />
+
+<h3>Kategorileri Action ile Getir</h3>
+
+@Html.Action("KategorileriPartillaGetir")
+
+<hr />
+
+<h3>Kategorileri Model Kullanarak Action ile Getir</h3>
+
+@Html.Action("KategorileriModelPartillaGetir")
+
+<hr />
+
+FileResult
+
+<hr />
+
+@Html.ActionLink("FileResult", "PdfDosyaIndir")
+
+<hr />
+
+FileStreamResult
+
+<hr />
+
+@Html.ActionLink("FileStreamResult", "MetinDosyasiIndir")
+
+<hr />
+
+@Html.ActionLink("JavaScriptResult", "JsResult")
+
+@*<script src="/Mvc13ViewResult/JsResult"></script>*@
+
+<script src="/Mvc13ViewResult/JsButtonClick"></script>
+
+<input id="Button1" type="button" value="Mesaj Ver" onclick="button_click()" />
+
+<hr />
+
+@Html.ActionLink("JsonResult", "Index4")
+
+<hr />
+
+@Html.ActionLink("ContentResult", "XmlContentResult")
+

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Mvc Razor Syntax";
+
+    <h3>Değişken Tanımlama</h3>
+
+    string isim = "Berkay";
+
+    @isim
+    <hr />
+    string[] adlar = new string[] { "Ali", "Veli", "Ahmet" };
+
+    foreach (var item in adlar)
+    {
+        @(item + " ")
+        <hr />
+        <b>@item</b>
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        @i
+        <hr />
+    }
+
+}
+
+<h2>Mvc Razor Syntax</h2>
+
+@isim

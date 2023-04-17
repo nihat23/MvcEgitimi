@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="d-flex">div</div>
+
+    <hr />
+
+    <div class="d-flex flex-column flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <div class="d-flex flex-column-reverse flex-row-reverse bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+
+    <h2>Flex Hizalama</h2>
+
+    <div class="container">
+        <p>justify-content-start içeriği başa hizala</p>
+        <div class="d-flex justify-content-start bg-info">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>justify-content-end içeriği sona hizala</p>
+
+        <div class="d-flex justify-content-end bg-black">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>justify-content-center içeriği merkeze hizala</p>
+
+        <div class="d-flex justify-content-center bg-danger">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>justify-content-between içeriği aralarını boşluk bırakarak hizala</p>
+
+        <div class="d-flex justify-content-between bg-light">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>justify-content-around içeriği çevresini boşluk bırakarak hizala</p>
+
+        <div class="d-flex justify-content-around bg-primary">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>justify-content-evenly içeriği çevresini boşluk bırakarak hizala</p>
+
+        <div class="d-flex justify-content-evenly bg-secondary">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <h2>Align items : öğeleri dikeyde hizalama</h2>
+
+        <hr />
+
+        <p>align-items-start</p>
+
+        <div class="d-flex align-items-start bg-primary" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>align-items-end</p>
+
+        <div class="d-flex align-items-end bg-primary" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>align-items-center</p>
+
+        <div class="d-flex align-items-center bg-secondary" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>align-items-baseline</p>
+
+        <div class="d-flex align-items-baseline bg-secondary" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <p>align-items-stretch</p>
+
+        <div class="d-flex align-items-stretch bg-secondary" style="height:150px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 bd-highlight">Flex item 2</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <h2>Align self</h2>
+
+        <div class="d-flex bg-secondary" style="height:150px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 align-self-start bd-highlight">Flex item 2 align-self-start</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex bg-secondary" style="height:150px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 align-self-end bd-highlight">Flex item 2 align-self-end</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex bg-info" style="height:150px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 align-self-center bd-highlight">Flex item 2 align-self-center</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex bg-info" style="height:150px">
+            <div class="p-2 bd-highlight">Flex item 1</div>
+            <div class="p-2 align-self-stretch bd-highlight">Flex item 2 align-self-stretch</div>
+            <div class="p-2 bd-highlight">Flex item 3</div>
+        </div>
+
+        <h2>Auto margins</h2>
+
+        <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <div class="d-flex bd-highlight mb-3">
+            <div class="me-auto p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="ms-auto p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <h2>Wrap özelliği</h2>
+
+        <div class="d-flex flex-wrap flex-nowrap bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <h2>Order özelliği</h2>
+
+        <div class="d-flex flex-nowrap bd-highlight">
+            <div class="order-3 p-2 bd-highlight">First flex item</div>
+            <div class="order-2 p-2 bd-highlight">Second flex item</div>
+            <div class="order-1 p-2 bd-highlight">Third flex item</div>
+        </div>
+
+        <h2>Align content</h2>
+
+        <div class="d-flex align-content-start flex-wrap bg-danger bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex align-content-end flex-wrap bg-danger bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex align-content-center flex-wrap bg-warning bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex align-content-between flex-wrap bg-primary bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex align-content-around flex-wrap bg-warning bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <div class="d-flex align-content-stretch flex-wrap bg-primary bg-gradient bd-highlight mb-3" style="height:200px">
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+            <div class="p-2 bd-highlight">Flex item</div>
+        </div>
+
+        <hr />
+
+        <h2>Float</h2>
+
+        <div class="container">
+            <div class="p-2 bd-highlight float-start">float start item</div>
+            <hr />
+            <div class="p-2 bd-highlight float-end">float end item</div>
+            <hr />
+            <div class="p-2 bd-highlight float-none">float none item</div>
+        </div>
+
+        <h2>Metin hizalama</h2>
+
+        <div class="container">
+            <div class="p-2 bd-highlight text-start">text start item</div>
+            <hr />
+            <div class="p-2 bd-highlight text-center">text center item</div>
+            <hr />
+            <div class="p-2 bd-highlight text-end">text end item</div>
+        </div>
+
+        <h2>Margin ve padding</h2>
+
+        <div class="container">
+            <div class="p-3 m-2 bd-highlight text-start bg-black">text start item</div>
+            <hr />
+            <div class="p-4 m-3 bd-highlight text-center bg-danger">text center item</div>
+            <hr />
+            <div class="p-5 m-4 bd-highlight text-end bg-info">text end item</div>
+        </div>
+
+        <h2>Satırda öğe sayısı</h2>
+
+        <div class="container bg-warning">
+            <div class="row row-cols-3">
+                <div class="col">Column 1</div>
+                <div class="col">Column 2</div>
+                <div class="col">Column 3</div>
+                <div class="col">Column 4</div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

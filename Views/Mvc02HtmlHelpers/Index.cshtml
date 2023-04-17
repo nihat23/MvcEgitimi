@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Html Helpers";
+}
+
+<h2>Html Helpers</h2>
+
+@Html.ActionLink("Anasayfa", "Index")
+
+@Html.ActionLink("Hakkımızda", "About", "Home")
+
+<hr />
+
+@Html.CheckBox("cbOnay", true) Onaylıyorum
+
+<hr />
+
+@Html.Editor("txtAd")
+
+<hr />
+
+@Html.Hidden("hfGizliElement", "değer")
+
+<hr />
+
+@Html.Label("lblAd", "Ürün Adı : ")
+
+<hr />
+
+@Html.TextArea("txtAdres", "İstanbul")
+
+<hr />
+
+@Html.TextBox("txtSoyad", "Soyadınız")
+
+<hr />
+
+@Html.Password("txtSifre")

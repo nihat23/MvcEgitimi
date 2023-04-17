@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "String Format ile Formatlama";
+}
+
+<h2>String Format ile Formatlama</h2>
+
+<h3>Tarih Formatları</h3>
+
+@{
+    DateTime tarih = DateTime.Now;
+
+    @("Ayın Günü - dd : " + String.Format("{0:dd}", tarih))
+    <br />
+    @("Haftanın Günü - dddd : " + String.Format("{0:dddd}", tarih))
+    <br />
+    @("Ay - MM : " + String.Format("{0:MM}", tarih))
+    <br />
+    @("Yıl - yyyy : " + String.Format("{0:yyyy}", tarih))
+    <br />
+    @("Saat - hh : " + String.Format("{0:hh}", tarih))
+    <br />
+    @("Dakika - mm : " + String.Format("{0:mm}", tarih))
+    <br />
+    @("Saniye - ss : " + String.Format("{0:ss}", tarih))
+    <br />
+    @("Kısa saat - t : " + String.Format("{0:t}", tarih))
+    <br />
+    @("Kısa Tarih - d : " + String.Format("{0:d}", tarih))
+    <br />
+    @("Kısa saat + saniye - T : " + String.Format("{0:T}", tarih))
+    <br />
+    @("Uzun Tarih - D : " + String.Format("{0:D}", tarih))
+    <br />
+    @("Uzun Tarih + saat f : " + String.Format("{0:f}", tarih))
+    <br />
+    @("Uzun Tarih + saat + saniye F : " + String.Format("{0:F}", tarih))
+    <br />
+    @("Tarih + saat + dk g : " + String.Format("{0:g}", tarih))
+    <br />
+    @("Tarih + saat + dk + sn G : " + String.Format("{0:G}", tarih))
+    <br />
+    @("Gün - Ay - m : " + String.Format("{0:m}", tarih))
+    <br />
+    @("Ay - Yıl - y : " + String.Format("{0:y}", tarih))
+
+    <h3>Sayı Formatları</h3>
+
+    @("0:C : " + String.Format("{0:C}", 10.50))
+    <br />
+    @("0:D3 : " + String.Format("{0:D3}", 15))
+    <br />
+    @("0:D5 : " + String.Format("{0:D5}", 150))
+    <br />
+    @("0:F1 : " + String.Format("{0:F1}", 15.5))
+    <br />
+    @("0:F2 : " + String.Format("{0:F2}", 15.5))
+    <br />
+    @("0:F3 : " + String.Format("{0:F3}", 15.5))
+    <br />
+    @("0:N : " + String.Format("{0:N}", 1500000))
+    <br />
+    @("0:000000.00 : " + String.Format("{0:000000.00}", 15.5))
+    <br />
+    @("0:###.## : " + String.Format("{0:###.##}", 15.551))
+}
